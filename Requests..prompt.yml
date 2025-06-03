@@ -156,4 +156,7 @@ messages:
       عنا؟ ستكون هذه الأسئلة ضمن المحاور الأساسية التي تحتاج إلى البحث والنقاش
       بعمق في السنوات المقبلة، لضمان توجيه الذكاء الاصطناعي نحو مستقبل إيجابي
       يخدم البشرية بشكل آمن ومستدام.
-model: openai/gpt-4o
+model: deepseek/deepseek-r1
+modelParameters:
+  max_tokens: 4096
+responseFormat: json_object
